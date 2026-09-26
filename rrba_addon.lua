@@ -1,15 +1,4 @@
 -- RRBA - Republican Reserve Bank addon for SCP: Roleplay server addons.
---
--- Features
---   * Interacting with a custom interaction part named BALANCE_INTERACTION
---     makes the NPC (RIG_NAME) tell the player their balance.
---   * Interacting with WITHDRAW_INTERACTION converts REZ from the player's
---     RRBA account into in-game Score.
---   * Interacting with DEPOSIT_INTERACTION converts in-game Score back
---     into REZ in the player's RRBA account.
---   * Chat commands:  !balance   and   !pay <username> <amount>
---
--- NOTE: announce() does not work on this server, so only rigSay() is used.
 
 ------------------------------------------------------------------------
 -- Settings
